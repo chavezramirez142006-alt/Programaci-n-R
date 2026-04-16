@@ -1,0 +1,70 @@
+:root {
+    --color-primario: #FF8752;
+    --color-secundario: #FFA651;
+    --color-terciario: #FFE1C4;
+    --colorsombras: #241E02;
+    --colorTitulos: #941111;
+    --colorParrafos: #000000;
+    --colorFondo: #bef3a6;
+    --colorBordes: #3fb608;
+    --colordefecto: #ffffff;
+    --indexToolTip: 1;
+    --indexfixed: 10;
+    --indexModal:1000;
+    --indexPopup: 10000;
+}
+
+/* selector universal*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../imgxd/machu.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;  
+}
+
+.login-card{
+    background-color: var(--color-primario);
+    padding: 2em;   
+    border-radius: 1em;
+    box-shadow: 0 0 10px var(--colorParrafos);
+    max-width: 600px;
+}
+
+input{
+    width: 100%;
+    padding: .8em;
+    margin-bottom: 1em;
+    border-radius: .5em;
+    font-size: 1em;
+}
+
+.botoni{
+    width: 100%;
+    background-color: var(--colorFondo);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-family: 'Poppins';
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.botoni:hover {
+    background-color: var(--colorBordes);
+    color : #fff;
+}
+
+/* parrafos font-weight 300 o 500 */
