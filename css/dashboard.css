@@ -1,0 +1,47 @@
+:root {
+    --color-primario: #FF8752;
+    --color-secundario: #FFA651;
+    --color-terciario: #FFE1C4;
+    --colorsombras: #241E02;
+    --colorTitulos: #941111;
+    --colorParrafos: #000000;
+    --colorFondo: #bef3a6;
+    --colorBordes: #3fb608;
+    --colordefecto: #ffffff;
+    --indexToolTip: 1;
+    --indexfixed: 10;
+    --indexModal:1000;
+    --indexPopup: 10000;
+}
+
+/* selector universal*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('../imgxd/drama-llama-pff.gif');
+    background-size: 100em;
+    background-position: center;
+    background-attachment: fixed;
+}
+.botonc {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background-color: var(--colordefecto);
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.botonc:hover {
+    background-color: var(--colorBordes);
+    color: #fff;
+    cursor: pointer;
+}
